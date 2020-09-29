@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>gb_bbx3d_octomap</name>
+  <version>0.0.1</version>
+
+  <description>ROS2 gb_bbx3d_octomap package</description>
+
+  <maintainer email="fergonzaramos@yahoo.es">Fernando González</maintainer>
+  <maintainer email="josemiguel.guerrero@urjc.es">José Miguel Guerrero</maintainer>
+
+  <license>Apache License, Version 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>tf2_geometry_msgs</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf2</depend>
+  <depend>octomap</depend>
+  <depend>octomap_msgs</depend>
+  <depend>gb_visual_detection_3d_msgs</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
